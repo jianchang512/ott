@@ -112,7 +112,9 @@ console.log(await res.json());
 ```
 
 
-# 对 argostranslate 的修改以实现下载模式出错时提醒代理
+## 对 argostranslate 的修改
+
+以实现下载模式出错时提醒代理
 
 1. 修改了  `\venv\Lib\site-packages\argostranslate\networking.py` 的 get 方法，当下载失败时，抛出异常
 
