@@ -13,34 +13,15 @@
 
 # Windows 预编译包使用
 
-0. 如果你无法打开 https://raw.githubusercontent.com 这个地址，必须在 set.ini 中 `PROXY=` 设置代理地址，比如 v2ray默认地址是 http://127.0.0.1:10809，则填写 `PROXY=http://127.0.0.1:10809`  clash默认http://127.0.0.1:7890，则填写 `PROXY=http://127.0.0.1:7890`，仅在下载模型时使用，模型下载后即可去掉代理
+0. 如果你无法打开 https://raw.githubusercontent.com 这个地址，必须在 set.ini 中 `PROXY=` 设置代理地址，比如 v2ray默认地址是 `http://127.0.0.1:10809`，则填写 `PROXY=http://127.0.0.1:10809`  clash默认`http://127.0.0.1:7890`，则填写 `PROXY=http://127.0.0.1:7890`，仅在下载模型时使用，模型下载后即可去掉代理
 
-([你也可以从百度网盘下载已打包好的模型，解压后将里面的".local" 文件夹复制覆盖到本软件根目录下](https://pan.baidu.com/s/1h5upbQIQw3LmUU6-3-YRbw?pwd=72bj))
+[你也可以从百度网盘下载已打包好的模型，解压后将里面的".local" 文件夹复制覆盖到本软件根目录下](https://pan.baidu.com/s/1h5upbQIQw3LmUU6-3-YRbw?pwd=72bj)
 
 1. [点击下载最新版window预编译包](https://github.com/jianchang512/ott)，解压到无空格的英文目录下，双击 start.exe
 
 2. 第一次启动后会自动下载模型，下载完毕后会显示当前Api服务的地址和端口，就可以使用了
 (你也可以从百度网盘下载已打包好的模型，解压后将里面的".local" 文件夹复制覆盖到本软件根目录下)
 
-start.exe 启动后显示如下
-
->
-> 测试下载模型
-> 代理: 无
-> 测试通过，准备下载模型
-> F:\python\libre
-> home_dir=WindowsPath('F:/python/libre')
-> data_dir=WindowsPath('F:/python/libre/.local/share/argos-translate')
-> Updating language models
-> Found 86 models
-> Keep 4 models
-> Downloading Chinese (traditional) → English (1.9) ...>
-> Downloading Chinese → English (1.9) ...
-> Downloading English → Chinese (1.9) ...
-> Downloading English → Chinese (traditional) (1.9) ...
-> Loaded support for 3 languages (4 models total)!
-> Running on http://127.0.0.1:9911
->
 
 3. 可以自己编写程序请求该Api服务，实现替代百度翻译等功能，或者填写到一些需要翻译功能的软件中，比如若要用在[视频软件配音](https://github.com/jianchang512/pyvideotrans)中，在软件菜单-设置-OTT中填写 服务器地址和端口即可(默认http://127.0.0.1:9911)
 
