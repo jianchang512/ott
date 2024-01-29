@@ -13,7 +13,7 @@
 > 如果你想使用原生LibreTranslate项目或想部署在docker，请访问 https://github.com/LibreTranslate/LibreTranslate
 >
 
-# Windows预编译exe下载使用
+## Windows预编译exe下载使用
 
 1. [点击下载window预编译包](https://github.com/jianchang512/ott) ，解压到无空格的英文目录下，双击 start.exe
 
@@ -22,7 +22,7 @@
 
 3. 可以自己编写程序请求该Api服务，实现替代百度翻译等功能，或者填写到一些需要翻译功能的软件中，比如若要用在[视频翻译配音软件](https://github.com/jianchang512/pyvideotrans) 中，在软件菜单-设置-OTT中填写 服务器地址和端口即可,默认地址是 `http://127.0.0.1:9911`
 
-# Window上源码部署
+## Window上源码部署
 
 0. 首先到 python.org 网站下载 python3.9+ 版本并安装，建议安装 3.10，在安装时仔细查看，选中 “Add ... Path”复选框，以方便后续使用。
 
@@ -49,7 +49,7 @@
 
 7. 执行启动服务命令，`python start.py`
 
-# Mac 或 Linux 部署
+## Mac 或 Linux 部署
 
 0. 先确认是否安装了正确的python版本3.9+和git， `python -V` or `python3 -V`
 
@@ -71,7 +71,7 @@
 
 注意如果你的python执行命令不是`python3`，上面命令中的 python3需替换为对应的命令比如 `python`
 
-# Api接口使用示例
+## Api接口使用示例
 
 
 假如你部署的地址和端口是 `http://127.0.0.1:9911`
@@ -249,7 +249,7 @@ def update_package_index():
 ```
 
 
-# CUDA 加速支持
+## CUDA 加速支持
 
 **安装CUDA工具** [详细安装方法](https://juejin.cn/post/7318704408727519270)
 
@@ -262,7 +262,8 @@ def update_package_index():
 [点击下载 cuBLAS](https://github.com/jianchang512/stt/releases/download/0.0/cuBLAS_win.7z)，解压后将里面的dll文件复制到 C:/Windows/System32下
 
 
-# 基于以下开源项目
+## 基于以下开源项目
+
 
 1. https://github.com/LibreTranslate/LibreTranslate
 
