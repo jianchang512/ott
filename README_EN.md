@@ -13,6 +13,9 @@ Supports multi-language local offline text translation Api tool
 > If you want to use the original LibreTranslate project or want to deploy on docker, please visit https://github.com/LibreTranslate/LibreTranslate
 >
 
+![image](https://github.com/jianchang512/ott/assets/3378335/2965176e-8f03-49bb-803e-2fdefbadfe7e)
+
+
 ## Windows precompiled exe Download and Use
 
 1. [Click to download the Windows precompiled package](https://github.com/jianchang512/ott), unzip to an English directory without spaces, and double-click start.exe.
