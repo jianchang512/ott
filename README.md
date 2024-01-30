@@ -13,6 +13,9 @@
 > 如果你想使用原生LibreTranslate项目或想部署在docker，请访问 https://github.com/LibreTranslate/LibreTranslate
 >
 
+![image](https://github.com/jianchang512/ott/assets/3378335/97ff6814-4480-4238-b37b-62f84c42204d)
+
+
 ## Windows预编译exe下载使用
 
 1. [点击下载window预编译包](https://github.com/jianchang512/ott) ，解压到无空格的英文目录下，双击 start.exe
