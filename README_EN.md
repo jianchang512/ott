@@ -71,11 +71,13 @@ Supports multi-language local offline text translation Api tool
 
 Please note if your python execution command is not`python3`, the python3 in the above commands should be replaced with your corresponding command.
 
-## Api Interface Usage Example
+## Api Interface Usage
 
 Assume your deployment address and port is `http://127.0.0.1:9911`
 
 API address: `http://127.0.0.1:9911/translate`
+
+Language code: zh=Simplified Chinese  /  zt=Traditional Chinese  /  en=English  /  fr=French /  de=German /  ja=Japanese /  ko=Korean  /  ru=Russian  /  es=Spanish /  th=Thai /  it=Italian  /  pt=Portuguese /  ar=Arabic  /  tr=Turkish /  hi=Hindi
 
 **Python requests request example**
 

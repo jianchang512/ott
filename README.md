@@ -71,12 +71,14 @@
 
 注意如果你的python执行命令不是`python3`，上面命令中的 python3需替换为对应的命令比如 `python`
 
-## Api接口使用示例
+## Api接口使用
 
 
 假如你部署的地址和端口是 `http://127.0.0.1:9911`
 
 API地址：`http://127.0.0.1:9911/translate`
+
+支持的语言代码: zh=中文简 zt=中文繁  en=英语  fr=法语 de=德语  ja=日语 ko=韩语 ru=俄语  es=西班牙语 th=泰国语 it=意大利语 pt=葡萄牙语 ar=阿拉伯语 tr=土耳其语  hi=印度语
 
 **python requests 请求示例**
 
