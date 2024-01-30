@@ -73,11 +73,21 @@ Please note if your python execution command is not`python3`, the python3 in the
 
 ## Api Interface Usage
 
-Assume your deployment address and port is `http://127.0.0.1:9911`
+Assume your deployment address and port is `http://127.0.0.1:9911` 
 
-API address: `http://127.0.0.1:9911/translate`
 
-Language code: zh=Simplified Chinese  /  zt=Traditional Chinese  /  en=English  /  fr=French /  de=German /  ja=Japanese /  ko=Korean  /  ru=Russian  /  es=Spanish /  th=Thai /  it=Italian  /  pt=Portuguese /  ar=Arabic  /  tr=Turkish /  hi=Hindi
+API address: `http://127.0.0.1:9911/translate` 
+
+
+Language code: zh=Simplified Chinese  /  zt=Traditional Chinese  /  en=English  /  fr=French /  de=German /  ja=Japanese /  ko=Korean  /  ru=Russian  /  es=Spanish /  th=Thai /  it=Italian  /  pt=Portuguese /  ar=Arabic  /  tr=Turkish /  hi=Hindi 
+
+
+Request method: POST
+
+Request data: `q`=text to be translated, `source`=text original language code can be filled in auto automatic recognition, `target`=target language code to be translated to
+
+Return data: Return JSON data, when correct, '{translatedText: "translated result'} ', when error,' {error:" error reason '}'`
+
 
 **Python requests request example**
 

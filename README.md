@@ -76,9 +76,16 @@
 
 假如你部署的地址和端口是 `http://127.0.0.1:9911`
 
-API地址：`http://127.0.0.1:9911/translate`
+API地址：`http://127.0.0.1:9911/translate` 
 
 支持的语言代码: zh=中文简 zt=中文繁  en=英语  fr=法语 de=德语  ja=日语 ko=韩语 ru=俄语  es=西班牙语 th=泰国语 it=意大利语 pt=葡萄牙语 ar=阿拉伯语 tr=土耳其语  hi=印度语
+
+请求方法:POST
+
+请求数据: q=待翻译文本，source=文本原始语言代码可填auto自动识别，target=要翻译到的目标语言代码
+
+返回数据: 返回json数据，正确时 `{translatedText:"翻译后结果"}`，出错时`{error:"错误原因"}`
+
 
 **python requests 请求示例**
 
