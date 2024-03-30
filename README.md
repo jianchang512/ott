@@ -18,7 +18,7 @@
 
 ## Windows预编译exe下载使用
 
-1. [点击下载window预编译包](https://github.com/jianchang512/ott) ，解压到无空格的英文目录下，双击 start.exe
+1. [点击下载window预编译包](https://github.com/jianchang512/ott/releases/download/v0.1/ott-v0.1.7z) ，解压到无空格的英文目录下，双击 start.exe
 
 2. 第一次启动后会自动下载模型，如果你无法打开 `https://raw.githubusercontent.com` 这个地址，必须在 set.ini 中 `PROXY=` 设置代理地址，否则无法下载。当然你也可以选择从百度网盘下载已打包好的模型，解压后将里面的 **.local** 文件夹复制到本软件目录下，覆盖同名文件夹 '.local', [点击去百度网盘下载模型](https://pan.baidu.com/s/1h5upbQIQw3LmUU6-3-YRbw?pwd=72bj)
 
