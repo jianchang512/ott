@@ -1,4 +1,10 @@
-[English](./README_EN.md)
+# 本项目不再更新，请使用上游项目 
+
+https://github.com/LibreTranslate/LibreTranslate
+
+----
+----
+
 
 # Offine-Text-Translate 本地离线文字翻译
 
